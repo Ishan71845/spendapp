@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    
     "target": "ES2017",
     "lib": [
       "dom",
@@ -25,7 +26,9 @@
     "paths": {
       "@/*": [
         "./*"
-      ]
+      ],
+            "convex/*": ["./convex/*"]
+
     }
   },
   "include": [
