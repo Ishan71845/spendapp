@@ -3,6 +3,11 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header"
 import { ConvexClientProvider } from "../components/convex-client-provider";
+import { ClerkProvider } from "@clerk/nextjs";
+
+
+
+
 const inter = Inter({ subsets:["latin"]})
 export const metadata: Metadata = {
   title: "Balance",
@@ -22,10 +27,12 @@ export default function RootLayout({
       <body
         className={`${inter.className} `}
       >
+        <ClerkProvider>
         <ConvexClientProvider>
         <Header/>
         <main className="min-h-screen">{children}</main>
         </ConvexClientProvider>
+        </ClerkProvider>
       </body>
     </html>
   );

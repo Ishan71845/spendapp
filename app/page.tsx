@@ -5,7 +5,7 @@ export default function Home() {
   return (
    <div>Ishan
     <br />
-    <Button variant={"destructive"}>fUCK </Button>
+    <Button variant={"destructive"}>click </Button>
    </div>
   );
 }
