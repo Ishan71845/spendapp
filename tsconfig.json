@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    
     "target": "ES2017",
     "lib": [
       "dom",
@@ -27,8 +26,9 @@
       "@/*": [
         "./*"
       ],
-            "convex/*": ["./convex/*"]
-
+      "convex/*": [
+        "./convex/*"
+      ]
     }
   },
   "include": [
@@ -36,11 +36,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
     "**/*.mts",
     ".next\\dev/types/**/*.ts",
     ".next\\dev/types/**/*.ts"
-  ],
+, "convex/auth.config.ts", "convex/users.ts"  ],
   "exclude": [
     "node_modules"
   ]

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header"
-import { ConvexClientProvider } from "../components/convex-client-provider";
+import { ConvexClientProvider } from "../components/ConvexClientProvider";
 import { ClerkProvider } from "@clerk/nextjs";
 
 
