@@ -121,7 +121,7 @@
   }
 }
 @utility gradient {
-  @apply bg-gradient-to-r from-green-600 to-teal-500; /* ✅ Corrected this line */
+  @apply bg-gradient-to-r from-blue-600 to-teal-500; /* ✅ Corrected this line */
 }
 
 @utility gradient-title {

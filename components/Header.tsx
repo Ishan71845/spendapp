@@ -20,8 +20,8 @@ export default function Header() {
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src={"/logos/logo.png"}
-            alt="Vehiql Logo"
+            src={"/logos/Balance-logo.png"}
+            alt=" Logo"
             width={200}
             height={60}
             className="h-11 w-auto object-contain"
@@ -32,13 +32,13 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-6">
             <Link
               href="#features"
-              className="text-sm font-medium hover:text-green-600 transition"
+              className="text-sm font-medium hover:text-blue-600 transition"
             >
               Features
             </Link>
             <Link
               href="#how-it-works"
-              className="text-sm font-medium hover:text-green-600 transition"
+              className="text-sm font-medium hover:text-blue-600 transition"
             >
               How It Works
             </Link>
@@ -50,7 +50,7 @@ export default function Header() {
             <Link href="/dashboard">
               <Button
                 variant="outline"
-                className="hidden md:inline-flex items-center gap-2 hover:text-green-600 hover:border-green-600 transition"
+                className="hidden md:inline-flex items-center gap-2 hover:text-blue-600 hover:border-blue-600 transition"
               >
                 <LayoutDashboard className="h-4 w-4" />
                 Dashboard
@@ -78,7 +78,7 @@ export default function Header() {
             </SignInButton>
 
             <SignUpButton>
-              <Button className="bg-green-600 hover:bg-green-700 border-none">
+              <Button className="bg-blue-600 hover:bg-blue-700 border-none">
                 Get Started
               </Button>
             </SignUpButton>
