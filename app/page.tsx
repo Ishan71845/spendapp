@@ -22,7 +22,7 @@ export default function Home() {
           </h1>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed">
             Track shared expenses, settle up easily, and enjoy stress-free
-            outings with Spendify.
+            outings with Balance.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
